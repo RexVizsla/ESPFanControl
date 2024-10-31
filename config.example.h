@@ -19,3 +19,7 @@
 
 // Buzzer Configuration
 #define BUZZER_PIN D7                       // Pin for the buzzer
+
+// Interval Configurations
+#define INTERVAL 1000                       // Sample time in milliseconds (1 second)
+#define READING_INTERVAL 2000               // Sensor reading interval in ms
