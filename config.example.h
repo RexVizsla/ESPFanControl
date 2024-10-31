@@ -3,9 +3,10 @@
 #define WIFI_PASSWORD "your_password_here"  // Your Wi-Fi Password
 
 // MQTT Configuration
-#define MQTT_SERVER "YOUR_MQTT_BROKER_IP"  // Replace with your MQTT broker IP
-#define MQTT_PORT 1883  // Default MQTT port, change if needed
-#define MQTT_USER "YOUR_MQTT_USERNAME"  // Optional: MQTT username
+#define MQTT_DEVICE_NAME "ESP8266_Server_Fan_Control" // Replace with a descriptive name of your device
+#define MQTT_SERVER "YOUR_MQTT_BROKER_IP"   // Replace with your MQTT broker IP
+#define MQTT_PORT 1883                      // Default MQTT port, change if needed
+#define MQTT_USER "YOUR_MQTT_USERNAME"      // Optional: MQTT username
 #define MQTT_PASSWORD "YOUR_MQTT_PASSWORD"  // Optional: MQTT password
 
 // DHT Sensor Configuration

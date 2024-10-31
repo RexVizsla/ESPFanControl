@@ -124,7 +124,7 @@ void setupWifi() {
 void reconnectMQTT() {
   while (!client.connected()) {
     Serial.print("Connecting to MQTT broker...");
-    if (client.connect("ESP8266Client", MQTT_USER, MQTT_PASSWORD)) {
+    if (client.connect(MQTT_DEVICE_NAME, MQTT_USER, MQTT_PASSWORD)) {
       Serial.println("Connected to MQTT broker");
     } else {
       Serial.print("Failed, rc=");
